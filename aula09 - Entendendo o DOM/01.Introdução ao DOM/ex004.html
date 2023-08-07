@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ex004.css">
+    <title>Introdução do DOM</title>
+  </head>
+  <body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg">Clique em mim</div>
+    <br>
+    <script>
+      const corpo = window.document.body
+      const p1 = window.document.getElementsByTagName('p')[1]
+      const d = window.document.getElementById('msg')
+      
+      // corpo.style.background = 'black'  //mudar a cor de fundo 
+      // p1.style.color = 'red'   //mudar a cor da tag p1
+      document.write(p1.innerHTML) //replica o p1 formatado
+      // document.write(p1.innerText) //replica o p1 sem a formatação, somente texto
+      // window.alert(p1.innerText) //coloca um alerta no navegador
+      d.style.background = 'green'
+      // d.innerText = 'Estou aguardando...' //altera o conteúdo da tag simplificado
+      window.document.getElementById('msg').innerText = 'Olá, mundo!' //alterar o conteúdo da tag caminho completo
+
+    </script>
+  </body>
+</html>

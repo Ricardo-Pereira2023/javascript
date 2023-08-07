@@ -1,0 +1,19 @@
+body {
+  background-color: blueviolet;
+  margin: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+}
+input#txtworld {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+  width: 200px; 
+}
+input#world {
+  font-size: 16pt;
+}
+div#res {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+}

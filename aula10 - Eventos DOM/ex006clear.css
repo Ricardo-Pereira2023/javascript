@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: green;
+}
+#para {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+input {
+  width: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+input#but {
+  background-color: blueviolet;
+  font-family: 'Courier New', Courier, monospace;
+  width: 150px;
+  font-size: 18px;
+}
+div#somar {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  color: aquamarine;
+}
+div#subtrair {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  color: aquamarine;
+}
+div#multiplicar {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  color: aquamarine;
+}
+div#dividir {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  color: aquamarine;
+}

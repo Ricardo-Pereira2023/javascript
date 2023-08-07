@@ -1,0 +1,22 @@
+O operador relacional "=" significa "recebe algum valor ou string".
+Ex: x = 5
+
+O operador relacional "==" significa "Igual a".
+* Nesse caso o "==" ignora o tipo (number, string...) e considera só o mesmo valor.
+Ex: 5 == '5'
+Verdadeiro
+
+O operador relacional "===" significa "Igualdade restrita".
+* Para ter uma saída verdadeira, a igualdade restrita precisa ter o mesmo valor e o mesmo tipo.
+Ex: 5 === 5
+Verdadeiro
+
+O operador relacional "!=" significa "Diferente de".
+* Esse operador ele ignora o tipo (number, string...) e considera o valor.
+Ex: 10 != '10'
+False
+
+O operador relacional "!==" significa "Desigual restrito".
+* Para ter uma saída verdadeira, o desigual restrito precisa ter o mesmo valor e o tipo diferente.
+Ex: 10 !== '10'
+Verdadeiro

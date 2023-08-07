@@ -1,0 +1,9 @@
+ Vetor é uma variável com vários espaços;
+ O vetor permite armazenar uma coleção de vários elementos sob um único nome de variável;
+ O vetor também é conhecido como variável composta ou Array;
+ O vetor é composto de elementos.
+ Um elemento de um vetor é um par que agrupa o espaço da memória, o valor colocado dentro dele e o índice;
+ O índice também pode ser chamado de chave ou key.
+ O índice sempre começa do número 0; Ex: uma variável com 3 índices [0, 1, 2];
+ Por fim temos o conteúdo de cada elemento.
+ Um Array ou vetor é uma variável que tem vários elementos, cada elemento é composto por seu valor e por uma chave de identificação.

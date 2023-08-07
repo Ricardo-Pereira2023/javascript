@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu primeiro programa...</title>
+      <style>
+      body {
+        background-color: blueviolet;
+        color: white; /* comentário em css */
+        font: normal 20pt Arial;
+      }
+      h1 {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Olá, mundo!</h1> <!--Comentário em HTML-->
+    <p>Já me livrei da maldição!</p>
+    <script>
+
+      // Convertendo String para Number
+      const n1 = window.parseFloat(prompt("Digite um número:")) // Primeira maneira de converter
+      const n2 = Number.parseFloat(window.prompt("Digite outro número:")) // Segunda maneira de converter
+      // const n3 = parseFloat(window.prompt('Digite outro número:')) // Terceira forma de converter
+      // const n4 = Number(window.prompt('Digite outro número')) // Quarta forma de converter (O Js decide qual a melhor conversão)
+      let soma = n1 + n2
+
+      // Formatando Strings
+      window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`) // Template String (crase + placeholder)
+      // window.alert('A soma dos valores é ' + soma) // Não faz interpolação
+      // window.alert('A soma entre ' + n1 + ' e ' + n2 + ' é igual a ' + soma) // Concatenação
+
+      // (number + number) para adição. É necessário usar o parseFloat ou parseInt para converter a string para number.
+      // (string + string) para concatenação
+      /* Para converter de number para string têm 2 maneiras:
+        1 - String()
+        2 - variável.toString() 
+      */
+    </script>
+  </body>
+</html>

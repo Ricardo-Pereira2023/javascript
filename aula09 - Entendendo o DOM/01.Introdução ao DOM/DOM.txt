@@ -1,0 +1,5 @@
+O que é DOM?
+É um acrônimo para Document Object Model (Modelo de Objetos para Documentos);
+É também um conjunto de objetos dentro do navegador que vai dar acesso aos componentes internos do seu website;
+O DOM não funciona dentro do Node.js, o DOM está presente quando está rodando o JavaScript dentro do navegador;
+
